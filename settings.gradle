@@ -1,1 +1,9 @@
-rootProject.name = 'LearnPagObj2'
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal() // <-- Этот репозиторий как раз содержит плагин Allure
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'LearnPagObj2' // Ваше имя проекта
